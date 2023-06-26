@@ -1,0 +1,21 @@
+{
+  "name": "timetrackerbot",
+  "version": "1.0.0",
+  "description": "Time tracker bot for my job by Ak-Solartechnik GmbH",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Volodymy Mariiko",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.3.0",
+    "jszip": "^3.10.1",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
